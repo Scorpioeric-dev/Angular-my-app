@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import {Employee} from '../models/employee.model'
 
 @Component({
   selector: "app-list-employees",
@@ -49,7 +50,7 @@ export class ListEmployeesComponent implements OnInit {
       dateOfBirth: new Date("11/08/1986"),
       department: "Developer",
       isActive: true,
-      photoPath: "assets/images/profile.jpg"
+      photoPath: "assets/images/eric-dummy-data.jpg"
     }
   ];
   constructor() {}
