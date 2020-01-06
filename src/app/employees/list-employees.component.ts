@@ -46,7 +46,7 @@ export class ListEmployeesComponent implements OnInit {
       name: "Eric",
       gender: "Male",
       contactPreference: "Email",
-      email: "scorpioeric1@gmail.com",
+      email: "scorpio@gmail.com",
       dateOfBirth: new Date("11/08/1986"),
       department: "Developer",
       isActive: true,
