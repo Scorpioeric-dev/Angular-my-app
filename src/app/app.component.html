@@ -1,3 +1,14 @@
-<div class="container">
+<!-- <div class="container">
   <app-list-employees></app-list-employees>
+</div> -->
+<div class="container">
+  <nav class="navbar navbar-default">
+    <ul class="nav navbar-nav">
+      <a routerLink="list">List</a>
+      <div>
+        <a routerLink="create">Create</a>
+      </div>
+    </ul>
+  </nav>
+  <router-outlet></router-outlet>
 </div>
